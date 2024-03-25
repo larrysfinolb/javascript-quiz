@@ -27,7 +27,7 @@ function Question({ info }: { info: IQuestion }) {
     <Card variant={'outlined'} sx={{ bgcolor: '#222', p: 2, textAlign: 'left', marginTop: 4, maxWidth: '100%' }}>
       <Typography variant={'h5'}>{info.question}</Typography>
 
-      <SyntaxHighLighter language='javascript' style={gradientDark}>
+      <SyntaxHighLighter language='javascript' style={gradientDark} wrapLongLines>
         {info.code}
       </SyntaxHighLighter>
 

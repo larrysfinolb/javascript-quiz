@@ -15,7 +15,7 @@ function App() {
 
   return (
     <main>
-      <Container maxWidth={'sm'}>
+      <Container maxWidth={'sm'} disableGutters>
         <Stack direction={'row'} gap={2} alignItems={'center'} justifyContent={'center'}>
           <JavaScriptLogo />
           <Typography variant={medium ? 'h2' : 'h5'} component={'h1'}>
